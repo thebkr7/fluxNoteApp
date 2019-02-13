@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover{
+  background: rgba(207, 206, 206, 0.507);
+}

@@ -1,0 +1,40 @@
+.content-column {
+  width: 80%;
+}
+
+.content-top-bar {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-button {
+  background-color: rgb(220, 220, 220);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.close-button:hover {
+  background-color: rgb(192, 190, 190);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.full-height {
+  height: 92%;
+}
+
+.content-textArea {
+  width: 100%;
+  height: 100%;
+  font-size: 1.15rem;
+  color: #4183D7;
+}

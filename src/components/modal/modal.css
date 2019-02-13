@@ -1,0 +1,41 @@
+.modal {
+  z-index: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-background {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3)
+}
+
+.modal-inner {
+  z-index: 3;
+  width: 60%;
+  height: 80%;
+  border-radius: 1px solid black;
+  background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-inner {
+  animation-name: modalFade;
+  animation-duration: .6s;
+}
+
+@keyframes modalFade {
+  from {transform: translateY(0);opacity: 0;}
+  to {transform: translateY(0);opacity: 1;}
+}
